@@ -6,6 +6,33 @@
   font-family: "Roboto", sans-serif;
 }
 
+.fill-btn {
+  max-width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  background: #a4bac9;
+  color: #0a304c;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.transparent-btn {
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #0a304c;
+  color: #0a304c;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #0a304c;
+}
 .header {
   &__wrapper {
     height: 114px;
@@ -238,11 +265,7 @@
     padding-left: 52px;
     margin-right: 42px;
     button {
-      color: #0a304c;
-      width: 299px;
-      height: 80px;
-      border-radius: 10px;
-      background-color: #a4bac9;
+      width: 300px;
     }
   }
   &__block-countries {
@@ -357,12 +380,8 @@
     line-height: 22px;
     margin-top: 20px;
   }
-  &__block-btn {
+  .transparent-btn {
     margin-top: 30px;
-    width: 100%;
-    height: 80px;
-    border-radius: 10px;
-    border: 1px solid #0a304c;
   }
 }
 
@@ -404,5 +423,165 @@
   }
   .guard_width {
     max-width: 370px;
+  }
+}
+
+/* Catalog block */
+
+.catalog {
+  margin-bottom: 70px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__block-left {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__block-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #0a304c;
+  }
+  &__block-descr {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #607e92;
+  }
+  .transparent-btn {
+    margin-top: 20px;
+  }
+  &__block-right {
+    width: 700px;
+    min-height: 450px;
+    background-image: url("../img/seamstress.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+  }
+  &__block-subright {
+    padding: 10px 0 10px 0;
+    width: 260px;
+    height: 90px;
+    border-radius: 0px 10px 10px 0px;
+    background: #c1221c;
+    margin-bottom: 26px;
+  }
+  .underlinethree {
+    width: 267px;
+    height: 70px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px dashed #fff;
+    margin-left: -18px;
+  }
+  &__block-sale {
+    margin-top: 12px;
+    margin-left: 51px;
+  }
+  &__block-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  &__block-subdescr {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #ffffff;
+  }
+}
+
+/* Escort block */
+
+.escort {
+  margin-bottom: 80px;
+  &__block {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__block-left {
+    width: 700px;
+    height: 420px;
+    background-image: url("../img/workpeople.png");
+  }
+  &__block-right {
+    max-width: 400px;
+  }
+  &__block-subtitle {
+    color: #0a304c;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  &__block-list {
+    color: #0a304c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    list-style-type: disc;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  &__block-list_descr {
+    color: #607e92;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 13px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* Company block */
+
+.company {
+  &__title {
+    margin-bottom: 38px;
+  }
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    max-height: 1002px;
+  }
+  &__block-one {
+    max-width: 294px;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      height: 100px;
+      margin-bottom: 40px;
+    }
+  }
+  &__block-two {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    img {
+      height: 100px;
+      margin-bottom: 40px;
+    }
+  }
+  &__block-three {
+    max-width: 294px;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      height: 100px;
+      margin-bottom: 40px;
+    }
   }
 }

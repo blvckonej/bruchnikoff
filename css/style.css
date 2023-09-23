@@ -213,7 +213,7 @@
   width: 563px;
   height: 70px;
   border-radius: 0px 10px 10px 0px;
-  border: 1px dashed #FFF;
+  border: 1px dashed #fff;
   margin-left: -15px;
 }
 .main__block-descr {
@@ -236,11 +236,11 @@
   margin-right: 42px;
 }
 .main__block-samplesbtn button {
-  color: #0A304C;
+  color: #0a304c;
   width: 299px;
   height: 80px;
   border-radius: 10px;
-  background-color: #A4BAC9;
+  background-color: #a4bac9;
 }
 .main__block-countries img {
   margin-right: 7px;
@@ -268,7 +268,7 @@
   width: 348px;
   height: 120px;
   border-radius: 10px;
-  border: 1px solid #607E92;
+  border: 1px solid #607e92;
 }
 .advantages__block-item_text {
   max-width: 194px;
@@ -282,9 +282,12 @@
 }
 
 /* Delivery Block */
+.delivery {
+  margin-bottom: 76px;
+}
 .delivery__title {
   max-width: 923px;
-  color: #0A304C;
+  color: #0a304c;
   font-size: 32px;
   font-weight: 500;
   line-height: 38px;
@@ -314,7 +317,7 @@
   width: 354px;
   height: 80px;
   border-radius: 10px 0px 0px 10px;
-  border: 1px dashed #FFF;
+  border: 1px dashed #fff;
   margin-left: 7px;
 }
 .delivery__block-subleft_text {
@@ -329,7 +332,7 @@
   width: 355px;
 }
 .delivery__block-items {
-  color: #0A304C;
+  color: #0a304c;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -344,7 +347,7 @@
   max-width: 326px;
   font-size: 16px;
   font-weight: 300;
-  color: #607E92;
+  color: #607e92;
   line-height: 22px;
   margin-top: 20px;
 }
@@ -353,5 +356,45 @@
   width: 100%;
   height: 80px;
   border-radius: 10px;
-  border: 1px solid #0A304C;
-}/*# sourceMappingURL=style.css.map */
+  border: 1px solid #0a304c;
+}
+
+/* Guard Block */
+.guard {
+  margin-bottom: 80px;
+}
+.guard__title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #0a304c;
+}
+.guard__block {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.guard__block-subtitle {
+  display: flex;
+  align-items: flex-start;
+}
+.guard__block-subtitle img {
+  margin-right: 25px;
+}
+.guard__block-subtitle_text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0a304c;
+  line-height: 24px;
+  max-width: 186px;
+}
+.guard__block-subtitle_descr {
+  max-width: 300px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: 23px;
+}
+.guard .guard_width {
+  max-width: 370px;
+}

@@ -617,3 +617,107 @@
   color: #ffffff;
   border: 1px solid #ffffff;
 }
+
+.footer {
+  background-color: #0A304C;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__block-contact {
+  width: 100%;
+  display: flex;
+  margin-left: 35px;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+.footer__block-contact:first-of-type {
+  margin-left: 0;
+}
+.footer__block-subtitle {
+  color: #607E92;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.footer__block-descr {
+  width: 225px;
+  display: flex;
+  margin-bottom: 15px;
+}
+.footer__block-descr img {
+  margin-right: 15px;
+  max-height: 33px;
+  width: 17px;
+}
+.footer__block-descr .img_clock {
+  margin-right: 12px;
+  width: 20px;
+}
+.footer__block-lists {
+  max-width: 225px;
+}
+.footer__block-list {
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+.footer__block-descr_link {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.footer__block-descr_link span {
+  color: #607E92;
+}
+.footer__block-descr_link a {
+  color: #ffffff;
+}
+.footer .bigsize_text {
+  text-decoration: none;
+  font-size: 18px;
+}
+.footer__block-catalog_text {
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: underline #ffffff;
+  margin-bottom: 20px;
+}
+.footer__block-catalog_text a {
+  color: #ffffff;
+}
+.footer__block-contact_wrapp {
+  width: 570px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__block-subtext {
+  color: #607E92;
+  font-size: 12px;
+  line-height: 1.5;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+.footer__block-border {
+  border-top: 1px solid rgba(74, 95, 106, 0.2);
+}
+.footer__block-copyright {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__block-copyright_subtext {
+  color: #607E92;
+  font-size: 12px;
+}
+.footer__block-developedfirm {
+  display: flex;
+  align-items: center;
+}
+.footer__block-developedfirm img {
+  margin-left: 5px;
+}/*# sourceMappingURL=style.css.map */

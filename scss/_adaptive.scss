@@ -11,9 +11,20 @@
   .title {
     font-size: 25px;
   }
+  .main {
+    &__block {
+      max-width: 100%;
+      background-size: cover;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  }
   .delivery {
     &__block-right {
       margin-left: 10px;
+    }
+    &__block-left {
+      border-radius: 10px;
     }
     &__block-items {
       color: #0a304c;
@@ -47,6 +58,12 @@
       font-size: 12px;
     }
   }
+  .catalog {
+    &__block-right {
+      margin-left: 10px;
+      border-radius: 10px;
+    }
+  }
 }
 @media (max-width: 1100px) {
   .main {
@@ -73,9 +90,21 @@
     }
   }
   .order {
-      &__block {
-        background-size: cover;
-      }
+    &__block {
+      background-size: cover;
+    }
+  }
+  .catalog {
+    &__block-left {
+      justify-content: space-between;
+      margin-right: 10px;
+    }
+  }
+  .escort {
+    &__block-left {
+      margin-right: 10px;
+      border-radius: 10px;
+    }
   }
 }
 @media (max-width: 992px) {
@@ -193,6 +222,7 @@
     &__block {
       max-width: 100%;
       background-size: cover;
+      border-radius: 10px;
     }
   }
   .advantages {
@@ -207,14 +237,16 @@
       flex-direction: column;
       align-items: center;
       img {
-        max-height: 100%;
+        height: 50px;
       }
     }
     &__block-item_text {
       max-width: 124px;
+      margin-top: 10px;
+      margin-left: 0px;
       font-size: 12px;
       line-height: 15px;
-      margin-left: 10px;
+      text-align: center;
     }
   }
   .guard {
@@ -249,14 +281,11 @@
   }
   .catalog {
     margin-bottom: 20px;
-    &__block-left {
-      justify-content: space-between;
-      margin-right: 10px;
-    }
     &__block-descr {
       font-size: 14px;
     }
     &__block-right {
+      margin-left: 0px;
       background-size: cover;
     }
     &__block-subtitle {
@@ -272,8 +301,8 @@
       margin-top: 20px;
     }
     &__block-left {
-      max-height: 420px;
-      margin-right: 10px;
+      width: 100%;
+      margin-right: 0px;
     }
     &__block-right {
       display: flex;
@@ -376,7 +405,6 @@
       justify-content: space-between;
     }
   }
-  
 }
 @media (max-width: 768px) {
   .title {
@@ -518,6 +546,9 @@
       max-width: 100%;
       margin-left: 0;
     }
+    .transparent-btn {
+      width: 100%;
+    }
   }
   .guard {
     &__block-subtitle_descr {
@@ -557,13 +588,13 @@
     .fill-btn {
       font-size: 14px;
       margin-top: 10px;
-      width: 200px;
+      width: 100%;
       height: 50px;
     }
     .transparent-btn {
       font-size: 14px;
       margin-top: 10px;
-      width: 200px;
+      width: 100%;
       height: 50px;
     }
   }
@@ -575,7 +606,7 @@
       flex-direction: column;
     }
     &__block-left {
-      max-width: 100%; 
+      max-width: 100%;
       max-height: 380px;
       background-size: cover;
       background-repeat: no-repeat;
@@ -671,7 +702,6 @@
       justify-content: space-between;
     }
   }
-
 }
 @media (max-width: 640px) {
   .footer {
@@ -682,30 +712,36 @@
     &__block-contact {
       margin-bottom: 10px;
     }
-   &__display-none {
-    display: none;
-   }
-   &__block-subtext {
-    font-size: 10px;
-   }
-   &__block-copyright_subtext {
-    font-size: 10px;
-   }
-   &__block-list {
-    font-size: 10px;
-   }
-   &__block-descr_link {
-    font-size: 12px;
+    &__display-none {
+      display: none;
+    }
+    &__block-subtext {
+      font-size: 10px;
+    }
+    &__block-copyright_subtext {
+      font-size: 10px;
+    }
+    &__block-list {
+      font-size: 10px;
+    }
+    &__block-descr_link {
+      font-size: 12px;
+    }
+    .bigsize_text {
+      text-decoration: none;
+      font-size: 16px;
+    }
   }
-  .bigsize_text {
-    text-decoration: none;
-    font-size: 16px;
-  }
-  &__display-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+}
+@media (max-width: 520px) {
+  .footer {
+    &__block-copyright {
+      display: flex;
+      flex-direction: column;
+    }
+    &__block-copyright_subtext {
+      font-size: 14px;
+    }
   }
 }
 @media (max-width: 480px) {

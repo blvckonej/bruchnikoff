@@ -71,11 +71,11 @@
       margin-top: 5px;
       align-items: center;
     }
-    .fill-btn {
-      width: 200px;
-      height: 50px;
-      font-size: 18px;
-    }
+  }
+  .order {
+      &__block {
+        background-size: cover;
+      }
   }
 }
 @media (max-width: 992px) {
@@ -186,11 +186,203 @@
     }
   }
   .main {
+    margin-bottom: 15px;
     &__block-countries_text {
-      font-size: 10px;
       margin-top: 5px;
     }
+    &__block {
+      max-width: 100%;
+      background-size: cover;
+    }
   }
+  .advantages {
+    margin-bottom: 50px;
+    &__block {
+      display: flex;
+      justify-content: space-around;
+    }
+    &__block-item {
+      max-width: 200px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      img {
+        max-height: 100%;
+      }
+    }
+    &__block-item_text {
+      max-width: 124px;
+      font-size: 12px;
+      line-height: 15px;
+      margin-left: 10px;
+    }
+  }
+  .guard {
+    margin-bottom: 30px;
+    &__block {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__block-subtitle {
+      display: flex;
+      align-items: flex-start;
+      img {
+        margin-right: 15px;
+      }
+    }
+    &__block-subtitle_text {
+      height: 40px;
+      font-size: 13px;
+      line-height: 14px;
+      max-width: 106px;
+    }
+    &__block-subtitle_descr {
+      max-width: 200px;
+      font-size: 12px;
+      line-height: 12px;
+      margin-top: 13px;
+    }
+    .guard_width {
+      max-width: 270px;
+    }
+  }
+  .catalog {
+    margin-bottom: 20px;
+    &__block-left {
+      justify-content: space-between;
+      margin-right: 10px;
+    }
+    &__block-descr {
+      font-size: 14px;
+    }
+    &__block-right {
+      background-size: cover;
+    }
+    &__block-subtitle {
+      font-size: 14px;
+    }
+    &__block-subdescr {
+      font-size: 14px;
+    }
+  }
+  .escort {
+    margin-bottom: 40px;
+    &__block {
+      margin-top: 20px;
+    }
+    &__block-left {
+      max-height: 420px;
+      margin-right: 10px;
+    }
+    &__block-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &__block-subtitle {
+      font-size: 16px;
+      line-height: 16px;
+      margin-bottom: 15px;
+    }
+    &__block-descr {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &__block-list {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &__block-list_descr {
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 13px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .company {
+    margin-bottom: 20px;
+    &__title {
+      margin-bottom: 18px;
+    }
+    &__block-one {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+      img {
+        max-height: 100px;
+        margin-bottom: 20px;
+      }
+    }
+    &__block-two {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+      img {
+        max-height: 100px;
+        margin-bottom: 20px;
+      }
+    }
+    &__block-three {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      img {
+        max-height: 100px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .order {
+    margin-bottom: 15px;
+    &__block {
+      background-size: cover;
+    }
+    &__block-title {
+      max-width: 550px;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 57px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    &__block-lists {
+      display: flex;
+    }
+    &__block-list {
+      margin-left: 20px;
+      margin-right: 30px;
+      margin-top: 40px;
+      list-style-type: disc;
+      max-width: 320px;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 25px;
+      color: #ffffff;
+    }
+    .transparent-btn {
+      margin-top: 44px;
+      width: 320px;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+    }
+  }
+  .footer {
+    &__block-contact_wrapp {
+      max-width: 170px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  
 }
 @media (max-width: 768px) {
 }

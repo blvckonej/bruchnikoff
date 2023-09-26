@@ -221,11 +221,10 @@
 /* Main section */
 
 .main {
-  width: 100%;
   margin-bottom: 48px;
   &__block {
     max-width: 100%;
-    min-height: 480px;
+    height: 100%;
     background-image: url("../img/mainbanner.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -282,6 +281,7 @@
   }
   &__block-samples {
     margin-top: 30px;
+    padding-bottom: 40px;
     display: flex;
   }
   &__block-samplesbtn {
@@ -320,6 +320,10 @@
     height: 120px;
     border-radius: 10px;
     border: 1px solid #607e92;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
   }
   &__block-item_text {
     max-width: 194px;

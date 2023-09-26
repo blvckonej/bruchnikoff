@@ -22,6 +22,16 @@
   font-weight: 500;
   line-height: 24px;
 }
+.fill-btn:hover {
+  color: white;
+  background-color: #b4c6d2;
+  transition: all 0.2s ease-in-out;
+}
+.fill-btn:active {
+  color: #293a45;
+  background-color: #94aec0;
+  transition: all 0.2s ease-in-out;
+}
 
 .transparent-btn {
   width: 100%;
@@ -32,6 +42,16 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+}
+.transparent-btn:hover {
+  color: white;
+  background-color: #0d3e63;
+  transition: all 0.2s ease-in-out;
+}
+.transparent-btn:active {
+  color: gray;
+  background-color: #072235;
+  transition: all 0.2s ease-in-out;
 }
 
 .title {
@@ -194,6 +214,15 @@
   font-size: 14px;
   line-height: 17px;
   margin-right: 30px;
+  padding-bottom: 7px;
+}
+.navbar__block-link:hover {
+  color: black;
+  border-bottom: 3px solid red;
+  transition: 0.2s all ease-in-out;
+}
+.navbar__block-link:active {
+  color: #9bafbd;
 }
 .navbar__block-item {
   display: flex;

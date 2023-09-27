@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.container {
+.c-container {
   max-width: 1150px;
   padding: 0 15px;
   margin: 0 auto;
@@ -60,7 +60,7 @@
   line-height: 38px;
   color: #0a304c;
 }
-.header {
+.c-header {
   &__wrapper-burger_block {
     display: none;
   }
@@ -152,14 +152,19 @@
   &__social-link {
     display: flex;
     margin-top: 5px;
+    fill: #000;
     img {
       margin-right: 7px;
+      fill: #000;
     }
     a {
       color: #607e92;
       font-size: 14px;
       font-weight: 500;
       line-height: 20px;
+      &:hover {
+        color: darken(#607e92, 20%);
+      }
     }
   }
   /* Block Contact */
@@ -173,6 +178,7 @@
     font-size: 22px;
     font-weight: 700;
     line-height: 22px;
+    color: #0A304C;
   }
   &__contact-link {
     display: flex;
@@ -185,13 +191,16 @@
       font-weight: 500;
       line-height: 20px;
       text-decoration-line: underline;
+      &:hover {
+        color: darken(#607e92, 20%);
+      }
     }
   }
 }
 
 /* NavBar Section */
 
-.navbar {
+.c-navbar {
   border-bottom: 1px solid #607e92;
   &__wrapper {
     display: flex;
@@ -214,8 +223,8 @@
     padding-bottom: 7px;
     &:hover {
       color: darken(#607e92, 50%);
-      border-bottom: 3px solid red;
-      transition: 0.2s all ease-in-out;
+      border-bottom: 3px solid #C73434;
+      transition: 0.1s all ease-in;
     }
     &:active {
       color: lighten(#607e92, 20%);
@@ -240,6 +249,9 @@
       font-weight: 500;
       font-size: 14px;
       line-height: 17px;
+      &:hover {
+        color: darken(#607e92, 20%);
+      }
     }
     .margin_block {
       margin-right: 20px;
@@ -249,15 +261,18 @@
 
 /* Main section */
 
-.main {
+.c-main {
   margin-bottom: 48px;
   &__block {
     max-width: 100%;
     height: 100%;
     background-image: url("../img/mainbanner.png");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     z-index: -20;
+    margin-bottom: 20px;
   }
   &__block-title {
     padding-top: 32px;
@@ -335,7 +350,7 @@
   }
 }
 
-.advantages {
+.c-advantages {
   margin-bottom: 50px;
   &__block {
     display: flex;
@@ -368,7 +383,7 @@
 
 /* Delivery Block */
 
-.delivery {
+.c-delivery {
   margin-bottom: 76px;
   &__title {
     max-width: 923px;
@@ -439,7 +454,7 @@
 
 /* Guard Block */
 
-.guard {
+.c-guard {
   margin-bottom: 80px;
   &__block {
     margin-top: 40px;
@@ -474,7 +489,7 @@
 
 /* Catalog block */
 
-.catalog {
+.c-catalog {
   margin-bottom: 70px;
   &__wrapper {
     display: flex;
@@ -541,7 +556,7 @@
 
 /* Escort block */
 
-.escort {
+.c-escort {
   margin-bottom: 80px;
   &__block {
     margin-top: 40px;
@@ -586,7 +601,7 @@
 
 /* Company block */
 
-.company {
+.c-company {
   margin-bottom: 49px;
   &__title {
     margin-bottom: 38px;
@@ -629,7 +644,7 @@
 
 /* Order block */
 
-.order {
+.c-order {
   margin-bottom: 95px;
   &__block {
     padding: 51px 0 47px 48px;
@@ -670,7 +685,7 @@
   }
 }
 
-.footer {
+.c-footer {
   background-color: #0a304c;
   padding-top: 35px;
   padding-bottom: 15px;
@@ -736,10 +751,8 @@
     font-weight: 500;
     font-size: 12px;
     text-decoration: underline #ffffff;
+    color: #ffffff;
     margin-bottom: 20px;
-    a {
-      color: #ffffff;
-    }
   }
   &__block-contact_wrapp {
     width: 570px;

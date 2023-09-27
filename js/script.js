@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('burger').addEventListener('click', function () {
-        document.querySelector('.header__wrapper').classList.toggle('open');
+        document.querySelector('.c-header__wrapper').classList.toggle('open');
     })
 })
 
 window.addEventListener('keydown', (e) => {
     if (e.key === "Escape") {
-        document.querySelector('.header__wrapper').classList.remove('open');
+        document.querySelector('.c-header__wrapper').classList.remove('open');
     }
 })
 
@@ -20,5 +20,5 @@ document.getElementById('burger').addEventListener('click', event => {
 
 document.body.addEventListener('click', event => {
     if (event._isClickWithInMenu) return;
-    document.querySelector('.header__wrapper').classList.remove('open')
+    document.querySelector('.c-header__wrapper').classList.remove('open')
 })

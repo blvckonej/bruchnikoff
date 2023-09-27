@@ -1,7 +1,7 @@
 /* Adaptive */
 
 @media (max-width: 1200px) {
-  .header {
+  .c-header {
     &__logo {
       max-width: 150px;
     }
@@ -11,7 +11,7 @@
   .title {
     font-size: 25px;
   }
-  .main {
+  .c-main {
     &__block {
       max-width: 100%;
       background-size: cover;
@@ -19,7 +19,7 @@
       border-bottom-left-radius: 10px;
     }
   }
-  .delivery {
+  .c-delivery {
     &__block-right {
       margin-left: 10px;
     }
@@ -50,7 +50,7 @@
       margin-top: 30px;
     }
   }
-  .navbar {
+  .c-navbar {
     &__block-links {
       justify-content: space-around;
     }
@@ -58,7 +58,7 @@
       font-size: 12px;
     }
   }
-  .catalog {
+  .c-catalog {
     &__block-right {
       margin-left: 10px;
       border-radius: 10px;
@@ -66,7 +66,7 @@
   }
 }
 @media (max-width: 1100px) {
-  .main {
+  .c-main {
     &__block-title {
       h1 {
         font-size: 40px;
@@ -89,26 +89,60 @@
       align-items: center;
     }
   }
-  .order {
+  .c-order {
     &__block {
       background-size: cover;
     }
   }
-  .catalog {
+  .c-catalog {
     &__block-left {
       justify-content: space-between;
       margin-right: 10px;
     }
   }
-  .escort {
+  .c-escort {
     &__block-left {
       margin-right: 10px;
       border-radius: 10px;
     }
   }
+  .c-company {
+    &__block-one {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+      img {
+        max-height: 100px;
+        margin-bottom: 20px;
+      }
+    }
+    &__block-two {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+      img {
+        max-height: 100px;
+        margin-bottom: 20px;
+      }
+    }
+    &__block-three {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      img {
+        max-height: 100px;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 @media (max-width: 992px) {
-  .header {
+  .c-header {
     &__logo {
       max-width: 250px;
     }
@@ -206,7 +240,7 @@
       }
     }
   }
-  .navbar {
+  .c-navbar {
     display: none;
     &__block-item {
       a {
@@ -214,7 +248,7 @@
       }
     }
   }
-  .main {
+  .c-main {
     margin-bottom: 15px;
     &__block-countries_text {
       margin-top: 5px;
@@ -225,7 +259,7 @@
       border-radius: 10px;
     }
   }
-  .advantages {
+  .c-advantages {
     margin-bottom: 50px;
     &__block {
       display: flex;
@@ -249,7 +283,7 @@
       text-align: center;
     }
   }
-  .guard {
+  .c-guard {
     margin-bottom: 30px;
     &__block {
       margin-top: 20px;
@@ -279,7 +313,7 @@
       max-width: 270px;
     }
   }
-  .catalog {
+  .c-catalog {
     margin-bottom: 20px;
     &__block-descr {
       font-size: 14px;
@@ -295,14 +329,14 @@
       font-size: 14px;
     }
   }
-  .escort {
+  .c-escort {
     margin-bottom: 40px;
     &__block {
       margin-top: 20px;
     }
     &__block-left {
       width: 100%;
-      margin-right: 0px;
+      margin-right: 10px;
     }
     &__block-right {
       display: flex;
@@ -331,7 +365,7 @@
       }
     }
   }
-  .company {
+  .c-company {
     margin-bottom: 20px;
     &__title {
       margin-bottom: 18px;
@@ -369,7 +403,7 @@
       }
     }
   }
-  .order {
+  .c-order {
     margin-bottom: 15px;
     &__block {
       background-size: contain;
@@ -397,7 +431,7 @@
       border: 1px solid #ffffff;
     }
   }
-  .footer {
+  .c-footer {
     &__block-contact_wrapp {
       max-width: 170px;
       display: flex;
@@ -407,11 +441,11 @@
   }
 }
 @media (max-width: 768px) {
-  .title {
+  .c-title {
     font-size: 20px;
     line-height: 20px;
   }
-  .main {
+  .c-main {
     &__block {
       background-size: cover;
       border-radius: 10px;
@@ -477,7 +511,7 @@
       line-height: 17px;
     }
   }
-  .advantages {
+  .c-advantages {
     margin-bottom: 20px;
     &__block {
       display: flex;
@@ -493,7 +527,7 @@
       margin-top: 10px;
     }
   }
-  .delivery {
+  .c-delivery {
     margin-bottom: 10px;
     &__title {
       max-width: 423px;
@@ -550,7 +584,7 @@
       width: 100%;
     }
   }
-  .guard {
+  .c-guard {
     &__block-subtitle_descr {
       max-width: 200px;
       font-size: 12px;
@@ -559,7 +593,7 @@
       margin-right: 10px;
     }
   }
-  .catalog {
+  .c-catalog {
     margin-bottom: 20px;
     &__wrapper {
       display: flex;
@@ -598,7 +632,7 @@
       height: 50px;
     }
   }
-  .escort {
+  .c-escort {
     margin-bottom: 15px;
     &__block {
       margin-top: 20px;
@@ -638,7 +672,7 @@
       margin-bottom: 5px;
     }
   }
-  .company {
+  .c-company {
     margin-bottom: 20px;
     &__title {
       margin-bottom: 18px;
@@ -662,7 +696,7 @@
       }
     }
   }
-  .order {
+  .c-order {
     margin-bottom: 15px;
     &__block {
       min-height: auto;
@@ -694,7 +728,7 @@
       border: 1px solid #ffffff;
     }
   }
-  .footer {
+  .c-footer {
     &__block-contact_wrapp {
       max-width: 170px;
       display: flex;
@@ -704,7 +738,7 @@
   }
 }
 @media (max-width: 640px) {
-  .footer {
+  .c-footer {
     &__block {
       display: flex;
       flex-direction: column;
@@ -734,7 +768,7 @@
   }
 }
 @media (max-width: 520px) {
-  .footer {
+  .c-footer {
     &__block-copyright {
       display: flex;
       flex-direction: column;
@@ -745,7 +779,7 @@
   }
 }
 @media (max-width: 480px) {
-  .advantages {
+  .c-advantages {
     &__block-item {
       padding: 5px;
       img {
@@ -761,12 +795,12 @@
       margin-left: 0;
     }
   }
-  .delivery {
+  .c-delivery {
     .transparent-btn {
       width: 100%;
     }
   }
-  .catalog {
+  .c-catalog {
     .fill-btn {
       width: 100%;
     }
@@ -774,7 +808,7 @@
       width: 100%;
     }
   }
-  .order {
+  .c-order {
     &__block {
       padding: 15px;
     }
@@ -789,7 +823,7 @@
       font-size: 12px;
     }
   }
-  .guard {
+  .c-guard {
     &__block-subtitle {
       img {
         width: 20px;
@@ -805,12 +839,12 @@
   }
 }
 @media (max-width: 380px) {
-  .header {
+  .c-header {
     &__logo {
       max-width: 80%;
     }
   }
-  .main {
+  .c-main {
     &__block-subtitle_descr {
       font-size: 12px;
     }
@@ -821,7 +855,7 @@
       font-size: 10px;
     }
   }
-  .delivery {
+  .c-delivery {
     &__block-subleft {
       max-width: 300px;
     }
@@ -833,7 +867,7 @@
       margin-right: -7px;
     }
   }
-  .footer {
+  .c-footer {
     &__block-copyright {
       flex-direction: column;
       align-items: center;

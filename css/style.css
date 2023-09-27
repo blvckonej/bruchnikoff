@@ -13,6 +13,9 @@
 }
 
 .fill-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
   height: 80px;
   border-radius: 10px;
@@ -22,6 +25,7 @@
   font-weight: 500;
   line-height: 24px;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 .fill-btn:hover {
   color: white;
@@ -33,6 +37,9 @@
 }
 
 .transparent-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 80px;
   border-radius: 10px;
@@ -42,6 +49,7 @@
   font-weight: 500;
   line-height: 24px;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 .transparent-btn:hover {
   color: white;
@@ -329,7 +337,7 @@
   padding-left: 52px;
   margin-right: 42px;
 }
-.c-main__block-samplesbtn button {
+.c-main__block-samplesbtn a {
   width: 300px;
 }
 .c-main__block-countries img {
@@ -1004,6 +1012,9 @@
     background-size: cover;
     border-radius: 10px;
   }
+  .c-main__block-samplesbtn a {
+    height: 70px;
+  }
   .c-advantages {
     margin-bottom: 50px;
   }
@@ -1234,7 +1245,7 @@
     padding-left: 12px;
     margin-right: 22px;
   }
-  .c-main__block-samplesbtn button {
+  .c-main__block-samplesbtn a {
     width: 150px;
     height: 60px;
     font-size: 14px;

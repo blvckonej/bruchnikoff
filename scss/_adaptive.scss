@@ -258,6 +258,11 @@
       background-size: cover;
       border-radius: 10px;
     }
+    &__block-samplesbtn {
+      a {
+        height: 70px;
+      }
+    }
   }
   .c-advantages {
     margin-bottom: 50px;
@@ -491,7 +496,7 @@
     &__block-samplesbtn {
       padding-left: 12px;
       margin-right: 22px;
-      button {
+      a {
         width: 150px;
         height: 60px;
         font-size: 14px;

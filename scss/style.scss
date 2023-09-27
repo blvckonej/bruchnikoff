@@ -22,15 +22,14 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  transition: all 0.2s ease-in-out;
   &:hover {
     color: lighten(#a4bac9, 30%);
     background-color: lighten(#a4bac9, 5%);
-    transition: all 0.2s ease-in-out;
   }
   &:active {
     color: darken(#a4bac9, 50%);
     background-color: darken(#a4bac9, 5%);
-    transition: all 0.2s ease-in-out;
   }
 }
 .transparent-btn {
@@ -42,15 +41,14 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  transition: all 0.2s ease-in-out;
   &:hover {
     color: lighten(#ffffff, 30%);
     background-color: lighten(#0a304c, 5%);
-    transition: all 0.2s ease-in-out;
   }
   &:active {
     color: darken(#ffffff, 50%);
     background-color: darken(#0a304c, 5%);
-    transition: all 0.2s ease-in-out;
   }
 }
 
@@ -221,10 +219,10 @@
     line-height: 17px;
     margin-right: 30px;
     padding-bottom: 7px;
+    transition: 0.2s all ease-in-out;
     &:hover {
       color: darken(#607e92, 50%);
       border-bottom: 3px solid #C73434;
-      transition: 0.1s all ease-in;
     }
     &:active {
       color: lighten(#607e92, 20%);

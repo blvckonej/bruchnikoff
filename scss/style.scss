@@ -267,6 +267,10 @@
 
 /* Main section */
 
+.c-main__mobile {
+  display: none;
+}
+
 .c-main {
   margin-bottom: 48px;
   &__block {
@@ -280,6 +284,7 @@
     z-index: -20;
     margin-bottom: 20px;
   }
+  
   &__block-title {
     padding-top: 32px;
     padding-left: 52px;
@@ -356,6 +361,7 @@
   }
 }
 
+
 .c-advantages {
   margin-bottom: 50px;
   &__block {
@@ -385,6 +391,10 @@
   .margin_advantages {
     margin-left: 20px;
   }
+  .secret_display {
+    display: none;
+  }
+  
 }
 
 /* Delivery Block */

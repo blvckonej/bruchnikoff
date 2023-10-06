@@ -643,10 +643,16 @@
   height: 100px;
   margin-bottom: 40px;
 }
+.c-company__block-mobile {
+  display: none;
+}
 
 /* Order block */
 .c-order {
   margin-bottom: 95px;
+}
+.c-order__block-mobile {
+  display: none;
 }
 .c-order__block {
   padding: 51px 0 47px 48px;
@@ -1616,7 +1622,7 @@
     background-color: #C1221C;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: calc(100% - 14px);
+    width: calc(100% - 10px);
     height: 140px;
   }
   .c-main__mobile-descr {
@@ -1661,7 +1667,7 @@
     height: 70px;
   }
   .c-main__mobile .c-underline {
-    padding: 16px 40px 16px 0px;
+    padding: 16px 10px 16px 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-left: -5px;
@@ -1788,6 +1794,40 @@
     height: 70px;
     font-size: 16px;
   }
+  .c-order__block {
+    display: none;
+  }
+  .c-order__block-mobile {
+    display: block;
+  }
+  .c-order__block-main {
+    position: relative;
+    margin-top: -15px;
+    background-color: #00264B;
+    color: #ffffff;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+  }
+  .c-order__block-mobile_title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .c-order__block-list {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    max-width: 100%;
+    margin-left: 12px;
+  }
+  .c-order .transparent-btn {
+    max-height: 70px;
+  }
   .c-escort__title {
     font-size: 19px;
     line-height: 24px;
@@ -1806,12 +1846,30 @@
     font-size: 14px;
     line-height: 19px;
   }
+  .c-company__block {
+    display: none;
+  }
   .c-company__title {
     font-size: 20px;
     line-height: 24px;
   }
+  .c-company__block-mobile {
+    display: flex;
+    gap: 15px;
+  }
+  .c-company__block-left img {
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  .c-company__block-right img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
   .c-footer__block-copyright {
     flex-direction: column;
     align-items: center;
+  }
+  .c-footer__block-copyright_subtext {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */

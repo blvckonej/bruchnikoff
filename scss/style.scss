@@ -627,11 +627,11 @@
     justify-content: space-between;
     max-height: 1002px;
   }
+
   &__block-one {
     max-width: 294px;
     display: flex;
     flex-direction: column;
-
     img {
       height: 100px;
       margin-bottom: 40px;
@@ -656,12 +656,18 @@
       margin-bottom: 40px;
     }
   }
+  &__block-mobile {
+    display: none;
+  }
 }
 
 /* Order block */
 
 .c-order {
   margin-bottom: 95px;
+  &__block-mobile {
+    display: none;
+  }
   &__block {
     padding: 51px 0 47px 48px;
     width: 100%;
